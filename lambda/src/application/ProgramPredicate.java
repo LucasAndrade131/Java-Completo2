@@ -19,11 +19,11 @@ public class ProgramPredicate {
 //		 list.removeIf(Product::staticProductPredicate);//metrod reference
 //		 list.removeIf(Product::noStaticProductPredicate);
 		 
-		 double min = 100.0;
-		 
-		 Predicate<Product> pred = p -> p.getPrice() >= min;
-		 
-		 list.removeIf(pred);
+//		Expressão lambda declarada
+//		 double min = 100.0;
+//		 Predicate<Product> pred = p -> p.getPrice() >= min;
+//		 
+//		 list.removeIf(pred);
 		 
 		 for (Product p : list) {
 			 System.out.println(p);
